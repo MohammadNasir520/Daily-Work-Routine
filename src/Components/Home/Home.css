@@ -1,0 +1,12 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+.header-with-activities{
+    margin: 40px 70px;
+}
+@media screen and (max-width: 500px) {
+    .header-with-activities{
+        margin: 10px 20px;
+    }
+}

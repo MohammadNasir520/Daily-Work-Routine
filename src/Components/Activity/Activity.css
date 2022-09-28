@@ -1,0 +1,19 @@
+
+.activity{
+    
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+.activity img{
+width: 100%;
+}
+.activity button{
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    width: 75%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
