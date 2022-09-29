@@ -49,12 +49,17 @@ const Activites = () => {
             </div>
            
           
-            <div>
-            <SideCart time={time}></SideCart>
+            <div className='sideCart-parent' >
+             <div className='sideCart-container'>
+
+                
+               <SideCart time={time}></SideCart>
+               <Complete></Complete>
+             </div>
             <div>
 
            
-            <Complete></Complete>
+            
             </div>
             </div>
         </div>

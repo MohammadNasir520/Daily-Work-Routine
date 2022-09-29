@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 5px 20px;
+    
 }
 .activities{
     display: grid;
@@ -9,6 +10,14 @@
     grid-gap: 10px;
    
 }
+
+.sideCart-parent{
+    position: sticky;
+    top:0;
+}
+/* .sideCart-container{
+    position: sticky;
+} */
 
 @media screen and (max-width: 767px) {
     .activities{

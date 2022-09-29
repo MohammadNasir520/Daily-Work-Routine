@@ -5,7 +5,7 @@
 /* .header-with-activities{
     margin: 40px 70px;
 } */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     .header-with-activities{
         margin: 10px 20px;
     }

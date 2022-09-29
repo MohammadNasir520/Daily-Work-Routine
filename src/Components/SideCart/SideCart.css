@@ -1,5 +1,7 @@
 .sideCart-container{
    margin: 0px 10px;
+   position: sticky;
+   top:0;
 }
 
 .information{
