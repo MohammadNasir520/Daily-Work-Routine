@@ -21,6 +21,12 @@ const QuestionAns = () => {
             </div>
             <div>
                <h2> How can we use useEffect without loading data</h2>
+               <p>Running on state change: validating input field
+                    Running on state change: live filtering
+                    Running on state change: trigger animation on new array value
+                    Running on props change: update paragraph list on fetched API data update
+                    Running on props change: updating fetched API data to get BTC updated price
+                </p>
             </div>
         </div>
     );
