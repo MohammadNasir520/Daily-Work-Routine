@@ -19,7 +19,7 @@ const Activites = () => {
         
     ];
     const [time, setTime]=useState(0)
-    console.log(time)
+   
     const handleClick=(activity)=>{
        
         
@@ -43,25 +43,19 @@ const Activites = () => {
                      ></Activity>)
                    }
               </div>
+                   <div>
+                    <h2>question ans</h2>
+                   </div>
+
             </div>
            
           
             <div>
             <SideCart time={time}></SideCart>
             <div>
-            <div>
-                <h4>Activity Details </h4>
 
-                <div>
-                  <h5>  Exercise Time: <span>{time}</span>m</h5>
-
-                </div>
-                <div>
-                  <h5>  Break Time: <span id='break-time-show'>0</span>m</h5>
-
-                </div>
-                <Complete></Complete>
-            </div>
+           
+            <Complete></Complete>
             </div>
             </div>
         </div>
