@@ -1,10 +1,11 @@
 import React from 'react';
+import './QustionAns.css'
 
 const QuestionAns = () => {
     return (
-        <div>
-            <h2>ans</h2>
-            <div>
+        <div className='ans-container'>
+            
+            <div className='ans'>
                 <h2>How does react work?</h2>
                
                 
@@ -14,12 +15,12 @@ const QuestionAns = () => {
                 reacat create a virtual dom and compare with orginal dom and update the changed elemnts.
                 </p>
             </div>
-            <div>
+            <div className='ans'>
                 <h2>Difference between props and state</h2>
                 <br />
                 <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components</p>
             </div>
-            <div>
+            <div className='ans'>
                <h2> How can we use useEffect without loading data</h2>
                <p>Running on state change: validating input field
                     Running on state change: live filtering

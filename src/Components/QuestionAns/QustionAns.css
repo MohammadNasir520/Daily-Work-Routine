@@ -1,0 +1,8 @@
+.ans-container{
+    border: 1px solid tomato;
+    padding: 10px;
+}
+.ans{
+    border: 1px solid gray;
+    margin: 10px 0;
+}
