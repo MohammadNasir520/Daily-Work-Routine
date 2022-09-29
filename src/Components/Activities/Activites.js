@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Activity from '../Activity/Activity';
+import Complete from '../Completed-button/Complete';
 import Header from '../Header/Header';
 import SideCart from '../SideCart/SideCart';
 import './Activities.css'
@@ -14,7 +15,7 @@ const Activites = () => {
 
         {id:4, name:'swimming', time: 10, img: "https://media.istockphoto.com/photos/aerial-top-view-male-swimmer-swimming-in-swimming-pool-professional-picture-id1332857654?b=1&k=20&m=1332857654&s=170667a&w=0&h=WpW3--Gj2X2JByndgnhGuuCWvwNSpnJIKfa9BWfDIcI="},
         {id:5,name:'skating', time: 30 , img: "https://media.istockphoto.com/photos/young-man-skateboarding-in-los-angeles-picture-id1209988354?b=1&k=20&m=1209988354&s=170667a&w=0&h=6la5GZlsnqA6YkqDPnivlaEvuh0YIV1ng-80SFkTw3Q="},
-        {id:6, name:'bet khela', time: 7 , img: "https://i.ndtvimg.com/i/2017-11/skipping-rope-helps-in-reducing-back-fat_650x400_61510922405.jpg"},
+        {id:6, name:'Skipping rope', time: 7 , img: "https://i.ndtvimg.com/i/2017-11/skipping-rope-helps-in-reducing-back-fat_650x400_61510922405.jpg"},
         
     ];
     const [time, setTime]=useState(0)
@@ -59,7 +60,7 @@ const Activites = () => {
                   <h5>  Break Time: <span id='break-time-show'>0</span>m</h5>
 
                 </div>
-                <button className='btn-completed'>Activity Completed</button>
+                <Complete></Complete>
             </div>
             </div>
             </div>

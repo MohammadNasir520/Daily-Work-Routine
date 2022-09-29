@@ -8,17 +8,7 @@
     grid-gap: 10px;
    
 }
-.btn-completed{
-   
-        color: white;
-        font-weight: 600;
-        background-color: indigo;
-        width: 75%;
-        border-radius: 5px;
-        padding: 5px;
-        margin-bottom: 8px;
-    
-}
+
 @media screen and (max-width: 500px) {
     .activities{
        
