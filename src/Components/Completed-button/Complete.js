@@ -6,12 +6,16 @@ import './Complete.css'
 
 const Complete = () => {
     const showToast=()=>{
-        toast("Congratulations!  you are done your activities")
+        toast("Congratulations!  you are done your activities" ,
+        
+        )
     }
     return (
         <div>
             <button onClick={()=>showToast()} className='btn-completed'>Activity Completed</button>
-            <ToastContainer />
+            <ToastContainer 
+             position="top-center"
+            />
         </div>
     );
 };
