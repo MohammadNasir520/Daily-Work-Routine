@@ -6,12 +6,15 @@ import './Activities.css'
 
 const Activites = () => {
     const activities=[
-        {id:1, name:'Running', time: 20 , img: "https://images.unsplash.com/photo-1594882645126-14020914d58d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cnVubmluZ3xlbnwwfHwwfHw%3D&w=1000&q=80"},
-        {id:2, name:'Push Up', time: 5 , img: "../../images/exercise-logo.png"},
-        {id:3, name:'Pul up', time: 4 , img: "../../images/exercise-logo.png"},
-        {id:4, name:'swimming', time: 10, img: "../../images/exercise-logo.png"},
-        {id:5,name:'sketing', time: 30 , img: "../../images/exercise-logo.png"},
-        {id:6, name:'bet khela', time: 7 , img: "../../images/exercise-logo.png"},
+        {id:1, name:'Running', time: 20 , img: "https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&w=600"},
+
+        {id:2, name:'Push Up', time: 5 , img: "https://assets.gqindia.com/photos/5cee7eb00379a73d25177759/master/pass/Pushup.jpg"},
+
+        {id:3, name:'Pul up', time: 4 , img: "https://www.muscleandfitness.com/wp-content/uploads/2019/12/Fit-Man-Performing-A-Pullup-In-The-Park.jpg?quality=86&strip=all"},
+
+        {id:4, name:'swimming', time: 10, img: "https://media.istockphoto.com/photos/aerial-top-view-male-swimmer-swimming-in-swimming-pool-professional-picture-id1332857654?b=1&k=20&m=1332857654&s=170667a&w=0&h=WpW3--Gj2X2JByndgnhGuuCWvwNSpnJIKfa9BWfDIcI="},
+        {id:5,name:'skating', time: 30 , img: "https://media.istockphoto.com/photos/young-man-skateboarding-in-los-angeles-picture-id1209988354?b=1&k=20&m=1209988354&s=170667a&w=0&h=6la5GZlsnqA6YkqDPnivlaEvuh0YIV1ng-80SFkTw3Q="},
+        {id:6, name:'bet khela', time: 7 , img: "https://i.ndtvimg.com/i/2017-11/skipping-rope-helps-in-reducing-back-fat_650x400_61510922405.jpg"},
         
     ];
     const [time, setTime]=useState(0)
