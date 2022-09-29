@@ -1,0 +1,30 @@
+.sideCart-container{
+   
+}
+
+.information{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+   
+    
+}
+.mid-info{
+    margin: 0 6px;
+}
+.break-container{
+    margin: 50px 0;
+}
+.break-time{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 13px;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-weight: 500;
+}

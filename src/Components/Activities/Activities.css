@@ -1,8 +1,23 @@
+.Activities-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 .activities{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
    
+}
+.btn-completed{
+   
+        color: white;
+        font-weight: 600;
+        background-color: indigo;
+        width: 75%;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 8px;
+    
 }
 @media screen and (max-width: 500px) {
     .activities{
