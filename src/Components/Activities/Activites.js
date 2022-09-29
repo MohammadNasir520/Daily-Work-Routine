@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Activity from '../Activity/Activity';
 import Complete from '../Completed-button/Complete';
 import Header from '../Header/Header';
+import QuestionAns from '../QuestionAns/QuestionAns';
 import SideCart from '../SideCart/SideCart';
 import './Activities.css'
 
@@ -43,9 +44,7 @@ const Activites = () => {
                      ></Activity>)
                    }
               </div>
-                   <div>
-                    <h2>question ans</h2>
-                   </div>
+                   <QuestionAns></QuestionAns>
 
             </div>
            
