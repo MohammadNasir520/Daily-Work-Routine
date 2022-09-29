@@ -12,8 +12,11 @@
 }
 
 .sideCart-parent{
+    background-color: darkgrey;
     position: sticky;
     top:0;
+    margin: 0 10px;
+
 }
 /* .sideCart-container{
     position: sticky;
